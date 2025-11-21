@@ -1,0 +1,30 @@
+.footer {
+  background-color: rgb(5, 0, 26);
+  color: rgb(255, 255, 255);
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  min-height: 20vh;
+  margin: 0;
+}
+
+.footer_content {
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.first_block {
+  text-align: center;
+  flex-grow: 1;
+}
+
+.second_block {
+  flex-grow: 1;
+  text-align: center;
+}
+.h2{
+  margin: 0;
+}

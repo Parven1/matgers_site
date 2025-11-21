@@ -1,0 +1,55 @@
+.header {
+    background-image: url("assets/minecraft_collumn.png");
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-size: cover;
+    background-blend-mode: lighten;
+
+    position: relative;
+    top: 0;
+    z-index: 1000;
+    min-height: 10vh;
+    width: 100%;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: space-evenly;
+    color: aliceblue
+}
+
+.title {
+
+    backdrop-filter: blur(0.5px);
+
+    color: azure;
+    margin: 8px;
+    padding-bottom: 15px;
+
+    text-shadow: 1px 4px 10px rgba(0, 0, 0, 1);
+
+    font-size: large;
+}
+
+.h1 {
+    text-transform: uppercase;
+
+}
+
+.FIO {
+    font-size: 22px;
+}
+
+.img {
+    background-color: transparent;
+}
+.first_button{
+    background-color: rgb(0,0,0,0.3);
+
+    border-radius: 10px;
+    border-color: rgb(10, 10, 84);
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    color: aliceblue;
+    font-size: 15px;
+}
