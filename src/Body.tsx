@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import './Body.css'
 import Collapse from '@mui/material/Collapse';
-import url from 'assets/graph.png'
+import url from './assets/graph.png'
 
 
 
