@@ -39,7 +39,7 @@ const Body: React.FC = () => {
       </div>
       <div className='second_collumn_body'>
         <div className='first_body'>
-          <img src='src\assets\graph.png' ></img>
+          <img src='src/graph.png' ></img>
         </div>
         <div className='second_body'>
 
