@@ -8,14 +8,10 @@ import Collapse from '@mui/material/Collapse';
 
 const Body: React.FC = () => {
 
-  const [selectedValue, setSelectedValue] = useState('option1');
-  const handleChange = (event) => {
-    setSelectedValue(event.target.value);
-  };
-  const [open1, setOpen1] = React.useState(false);
-  const [open2, setOpen2] = React.useState(false);
-  const [open3, setOpen3] = React.useState(false);
-  const [open4, setOpen4] = React.useState(false);
+  const [open1, setOpen1] = useState(false);
+  const [open2, setOpen2] = useState(false);
+  const [open3, setOpen3] = useState(false);
+  const [open4, setOpen4] = useState(false);
 
 
 
