@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import './Body.css'
 import Collapse from '@mui/material/Collapse';
-
+import url from 'assets/graph.png'
 
 
 
@@ -39,7 +39,7 @@ const Body: React.FC = () => {
       </div>
       <div className='second_collumn_body'>
         <div className='first_body'>
-          <img src='src/graph.png' ></img>
+          <img src={url} ></img>
         </div>
         <div className='second_body'>
 
