@@ -22,7 +22,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-
+ padding-left: 10%;
 }
 
 .text_to_start {
@@ -81,7 +81,7 @@
 .questions_body {
   padding-top: 10vh;
   text-align: left;
-  padding-left: 30vh;
+  padding-left: 15%;
   padding-bottom: 10vh;
 }
 
