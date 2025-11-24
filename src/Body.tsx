@@ -54,7 +54,7 @@ const Body: React.FC = () => {
       <div className='third_body'>
         <h2>Как будет строится твоя игра -</h2>
         <p>Мне впадлу рисовать, что там у тебя за дорожки</p>
-        <h2 className='h2'>- С кайфом</h2>
+        <h2 className='color_change_h2'>- С кайфом</h2>
       </div>
       <button className='first_button' onClick={() => window.open('https://baldursgate3.game/', '_blank')}>
         Оставьте свои другие игры
